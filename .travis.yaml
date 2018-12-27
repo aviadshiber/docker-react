@@ -1,7 +1,0 @@
-sudo: required
-services:
-  - docker
-
-before_install:
-  #build docker image (tag name is just a convention- can be anything really)
-  - docker build -t 155663/docker-react -f Dockerfile.dev .
