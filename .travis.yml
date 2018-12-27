@@ -11,3 +11,5 @@ script:
   - docker run 155663/docker-react npm run test -- --coverage
   #the commands to be executed to actually run our test suite
   #to avoid npm run test to hang for input we add '-- --coverage'
+
+#TODO: update deploy to azure https://docs.travis-ci.com/user/deployment/azure-web-apps/
